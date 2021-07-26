@@ -2,7 +2,7 @@
 .container {
   width: 100%;
   height:auto;
-  color:red;
+  color:whitesmoke;
 }
 
 body{
@@ -36,14 +36,13 @@ right: 15px;
 max-height: 120px;
 }
 
-.card-1{
-background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+.card-body{
     background-repeat: no-repeat;
   background-position: right;
   background-size: 80px;
 }
 
-.card-2{
+.h5{
  background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
     background-repeat: no-repeat;
   background-position: right;
@@ -52,9 +51,3 @@ background-image: url(https://ionicframework.com/img/getting-started/ionic-nativ
   background-position: right;
   background-size: 80px;
 }
-
-@media(max-width: 990px){
-.card{
-  margin: 20px;
-}
-} 
